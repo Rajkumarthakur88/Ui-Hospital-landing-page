@@ -5,6 +5,11 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Montserrat', sans-serif;
+     /* border : 2px solid red; */
+}
+html,body{
+     overflow-x: hidden;
+
 }
 
 /* NAV-BAR */
@@ -317,13 +322,26 @@ nav {
 .bi-4-circle-fill{
 color: #5753c3;
 font-size: 26px;
+width: 50px;
 }
 #btn-1{
      position: relative;
      top: -58%;
      left: 8%;
 }
+#btn-1 p{
+     width: 100px;
+}
+#btn-2 p{
+     width: 100px;
+}
+#btn-3 p{
+     width: 100px;
+}
 
+#btn-4 p{
+     width: 100px;
+}
 #btn-2{
      position: relative;
      top: -82%;
